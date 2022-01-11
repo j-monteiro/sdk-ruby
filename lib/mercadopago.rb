@@ -1,24 +1,24 @@
 # typed: strict
 # frozen_string_literal: true
 
-require_relative './mercadopago/http/http_client'
+require 'mercadopago/http/http_client'
 
-require_relative './mercadopago/core/mp_base'
+require 'mercadopago/core/mp_base'
 
-require_relative './mercadopago/config/config'
-require_relative './mercadopago/config/request_options'
+require 'mercadopago/config/config'
+require 'mercadopago/config/request_options'
 
-require_relative './mercadopago/resources/customer'
-require_relative './mercadopago/resources/card'
-require_relative './mercadopago/resources/user'
-require_relative './mercadopago/resources/identification_type'
-require_relative './mercadopago/resources/preference'
-require_relative './mercadopago/resources/payment'
-require_relative './mercadopago/resources/card_token'
-require_relative './mercadopago/resources/refund'
-require_relative './mercadopago/resources/merchant_order'
-require_relative './mercadopago/resources/payment_methods'
-require_relative './mercadopago/resources/advanced_payment'
-require_relative './mercadopago/resources/disbursement_refund'
+require 'mercadopago/resources/customer'
+require 'mercadopago/resources/card'
+require 'mercadopago/resources/user'
+require 'mercadopago/resources/identification_type'
+require 'mercadopago/resources/preference'
+require 'mercadopago/resources/payment'
+require 'mercadopago/resources/card_token'
+require 'mercadopago/resources/refund'
+require 'mercadopago/resources/merchant_order'
+require 'mercadopago/resources/payment_methods'
+require 'mercadopago/resources/advanced_payment'
+require 'mercadopago/resources/disbursement_refund'
 
-require_relative './mercadopago/sdk'
+require 'mercadopago/sdk'
